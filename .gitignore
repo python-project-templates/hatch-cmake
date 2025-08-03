@@ -139,10 +139,13 @@ js/dist
 js/lib
 js/node_modules
 js/*.tgz
+hatch_cmake/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
+!hatch_cmake/extension/hatch_cmake.json
+!hatch_cmake/extension/install.json
 hatch_cmake/nbextension
 hatch_cmake/labextension
 

@@ -8,6 +8,7 @@ Hatch plugin for CMake/C++ builds
 [![PyPI](https://img.shields.io/pypi/v/hatch-cmake.svg)](https://pypi.python.org/pypi/hatch-cmake)
 
 ## Overview
+
 Wrapper for [hatch-cpp](https://github.com/python-project-templates/hatch-cpp).
 
 > [!NOTE]
