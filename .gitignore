@@ -141,14 +141,12 @@ js/node_modules
 js/test-results
 js/playwright-report
 js/*.tgz
-hatch_cmake/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
 Untitled*.ipynb
-!hatch_cmake/extension/hatch_cmake.json
-!hatch_cmake/extension/install.json
+hatch_cmake/extension
 hatch_cmake/nbextension
 hatch_cmake/labextension
 
@@ -157,3 +155,7 @@ hatch_cmake/labextension
 
 # Rust
 target
+
+# Hydra
+outputs/
+multirun/
